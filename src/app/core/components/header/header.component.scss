@@ -1,0 +1,71 @@
+header {
+    width: 100%;
+    min-width: 1200px;
+    padding: 0;
+    div {
+        width: 100%;
+        margin: 0;
+        height: 60px;
+        background-color: #025fc1;
+        color: #ffffff;
+        ul {
+            list-style: none;
+            li {
+                font-family: Roboto;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+                img {
+                    width: 100px;
+                    height: 25px;
+                }
+                &:nth-child(2) {
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                        &:nth-child(2) {
+                            width: 23px;
+                            height: 23px;
+                        }
+                    }
+                }
+            }
+        }
+        &:nth-child(2) {
+            width: 100%;
+            background-color: #0065cb;
+            height: 48px;
+            ul {
+                background-color: #025fc1;
+                height: 100%;
+                li {
+                    overflow: hidden;
+                    height: 100%;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #ffffff;
+                    &:hover {
+                        color: #feb121;
+                        border-bottom: 2px solid #feb121;
+                        cursor: pointer;
+                        &>span {
+                            border-top: 2px solid transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
